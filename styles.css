@@ -61,11 +61,33 @@ body {
 }
 
 .header-bottom {
-    background-color: rgb(255, 163, 163);
+    display: grid;
+    grid-template-columns: 60% 40%;
+    align-items: center;
+}
+
+.big-username {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
 }
 
 .header-bottom > ul {
+    list-style-type: none;
     display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+}
+
+.header-bottom > ul > li {
+    margin: 20px;
+    background-color: blue;
+    color: white;
+    height: 70%;
+    width: 65%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
 }
 
 .main {
