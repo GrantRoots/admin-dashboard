@@ -33,18 +33,40 @@ body {
 }
 
 .header-top {
-    background-color: red;
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 1fr;
+    align-items: center;
 }
 
 .search {
     grid-column: 1 / 2;
     display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-columns: 10% 90%;
+    height: 40%;
+    margin: 20px;
 }
 
+.search > input {
+    border-radius: 10px;
+}
+
+.search > div {
+    align-self: center;
+}
+
+.username {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.header-bottom {
+    background-color: rgb(255, 163, 163);
+}
+
+.header-bottom > ul {
+    display: grid;
+}
 
 .main {
     grid-area: 2 / 2 / 3 / 3;
