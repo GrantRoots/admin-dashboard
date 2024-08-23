@@ -1,6 +1,6 @@
 body {
     display: grid;
-    grid-template: 20vh 80vh / 2fr 7fr;
+    grid-template: 20vh 80vh / 1fr 7fr;
     margin: 0;
     height: 100vh;
 }
@@ -49,6 +49,7 @@ body {
 
 .search > input {
     border-radius: 10px;
+    background-color: lightslategray;
 }
 
 .search > div {
@@ -90,7 +91,65 @@ body {
     border-radius: 50px;
 }
 
+/* main */
+
 .main {
     grid-area: 2 / 2 / 3 / 3;
-    background-color: gray;
+    background-color: rgb(209, 209, 209);
+    display: grid;
+    grid-template: 1fr 1fr / 3fr 1fr;
+}
+
+.your-projects {
+    grid-row: 1 / 3;
+    padding: 25px;
+}
+
+.title {
+    font-weight: 900;
+}
+
+.projects-container {
+    display: grid;
+    grid-template: 1fr 1fr 1fr / 1fr 1fr;
+    gap: 20px;
+    height: 95%;
+}
+
+.project {
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.project :first-child {
+    margin-bottom: 10px;
+}
+
+.announcements {
+    padding: 25px;
+}
+
+.announcements-container {
+    background-color: white;
+}
+
+.announcement {
+    padding: 20px;
+    border-bottom: 1px solid black;
+}
+
+.trending {
+    padding: 25px;
+}
+
+.trend-container {
+    background-color: white;
+}
+
+.trend {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
 }
