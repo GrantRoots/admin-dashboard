@@ -1,1 +1,2 @@
 # admin-dashboard
+Admin-dashboard is a project I made using html and css. I used only css grid to make and style the page layout. I imported a font from google fonts and used imported svgs for the small icons.
