@@ -4,21 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="sidebar">
-        <div class="logo">Dashboard</div>
+        <div class="logo flex">
+            <div class="svg"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>wall</title><path d="M3,16H12V21H3V16M2,10H8V15H2V10M9,10H15V15H9V10M16,10H22V15H16V10M13,16H21V21H13V16M3,4H11V9H3V4M12,4H21V9H12V4Z" /></svg></div>
+            Dashboard
+        </div>
         <div class="sidebar-top">
-            <div>Home</div>
-            <div>Profile</div>
+            <div class="flex">
+                <div class='svg'><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>home-account</title><path d="M12,3L2,12H5V20H19V12H22L12,3M12,8.75A2.25,2.25 0 0,1 14.25,11A2.25,2.25 0 0,1 12,13.25A2.25,2.25 0 0,1 9.75,11A2.25,2.25 0 0,1 12,8.75M12,15C13.5,15 16.5,15.75 16.5,17.25V18H7.5V17.25C7.5,15.75 10.5,15 12,15Z" /></svg></div>
+                Home
+            </div>
+            <div class="flex">
+                <div class='svg'><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>emoticon</title><path d="M12,2C6.47,2 2,6.5 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M15.5,8A1.5,1.5 0 0,1 17,9.5A1.5,1.5 0 0,1 15.5,11A1.5,1.5 0 0,1 14,9.5A1.5,1.5 0 0,1 15.5,8M8.5,8A1.5,1.5 0 0,1 10,9.5A1.5,1.5 0 0,1 8.5,11A1.5,1.5 0 0,1 7,9.5A1.5,1.5 0 0,1 8.5,8M12,17.5C9.67,17.5 7.69,16.04 6.89,14H17.11C16.3,16.04 14.33,17.5 12,17.5Z" /></svg></div>
+                Profile
+            </div>
             <div>Messages</div>
             <div>History</div>
             <div>Tasks</div>
             <div>Communities</div>
         </div>
         <div class="sidebar-bottom">
-            <div>Settings</div>
+            <div class="flex">
+                <div class='svg'><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>cog</title><path d="M12,15.5A3.5,3.5 0 0,1 8.5,12A3.5,3.5 0 0,1 12,8.5A3.5,3.5 0 0,1 15.5,12A3.5,3.5 0 0,1 12,15.5M19.43,12.97C19.47,12.65 19.5,12.33 19.5,12C19.5,11.67 19.47,11.34 19.43,11L21.54,9.37C21.73,9.22 21.78,8.95 21.66,8.73L19.66,5.27C19.54,5.05 19.27,4.96 19.05,5.05L16.56,6.05C16.04,5.66 15.5,5.32 14.87,5.07L14.5,2.42C14.46,2.18 14.25,2 14,2H10C9.75,2 9.54,2.18 9.5,2.42L9.13,5.07C8.5,5.32 7.96,5.66 7.44,6.05L4.95,5.05C4.73,4.96 4.46,5.05 4.34,5.27L2.34,8.73C2.21,8.95 2.27,9.22 2.46,9.37L4.57,11C4.53,11.34 4.5,11.67 4.5,12C4.5,12.33 4.53,12.65 4.57,12.97L2.46,14.63C2.27,14.78 2.21,15.05 2.34,15.27L4.34,18.73C4.46,18.95 4.73,19.03 4.95,18.95L7.44,17.94C7.96,18.34 8.5,18.68 9.13,18.93L9.5,21.58C9.54,21.82 9.75,22 10,22H14C14.25,22 14.46,21.82 14.5,21.58L14.87,18.93C15.5,18.67 16.04,18.34 16.56,17.94L19.05,18.95C19.27,19.03 19.54,18.95 19.66,18.73L21.66,15.27C21.78,15.05 21.73,14.78 21.54,14.63L19.43,12.97Z" /></svg></div>
+                Settings
+            </div>
             <div>Support</div>
             <div>Privacy</div>
         </div>
@@ -27,23 +42,23 @@
     <div class="header">
         <div class="header-top">
             <div class="search">
-                <div>searchicon</div>
+                <div class="svg"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>magnify</title><path d="M9.5,4C13.09,4 16,6.91 16,10.5C16,12.12 15.41,13.6 14.43,14.73L20.08,20.38L19.37,21.09L13.72,15.44C12.59,16.41 11.11,17 9.5,17C5.91,17 3,14.09 3,10.5C3,6.91 5.91,4 9.5,4M9.5,5C6.46,5 4,7.46 4,10.5C4,13.54 6.46,16 9.5,16C12.54,16 15,13.54 15,10.5C15,7.46 12.54,5 9.5,5Z" /></svg></div>
                 <input type="search" name="search" id="search">
             </div>
 
             <div class="username">
-                <div>bell</div>
-                <div>pfp</div>
+                <div class="svg class='svg'"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 22"><title>bell</title><path d="M19 17H3V16H4V15H5V7H6V6H7V5H9V4H10V2H12V4H13V5H15V6H16V7H17V15H18V16H19M12 20H10V19H9V18H13V19H12M15 15V8H14V7H13V6H9V7H8V8H7V15Z" /></svg></div>
+                <div class='svg'><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>face-woman</title><path d="M13.75 13C13.75 12.31 14.31 11.75 15 11.75S16.25 12.31 16.25 13 15.69 14.25 15 14.25 13.75 13.69 13.75 13M22 12V22H2V12C2 6.5 6.5 2 12 2S22 6.5 22 12M4 12C4 16.41 7.59 20 12 20S20 16.41 20 12C20 11.21 19.88 10.45 19.67 9.74C18.95 9.91 18.2 10 17.42 10C14.05 10 11.07 8.33 9.26 5.77C8.28 8.16 6.41 10.09 4.05 11.14C4 11.42 4 11.71 4 12M9 14.25C9.69 14.25 10.25 13.69 10.25 13S9.69 11.75 9 11.75 7.75 12.31 7.75 13 8.31 14.25 9 14.25Z" /></svg></div>
                 <div>Morgan Oakley</div>
             </div>
         </div>
 
         <div class="header-bottom">
             <div class="big-username">
-                <div>pfp</div>
+                <div class='svg'><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>face-woman</title><path d="M13.75 13C13.75 12.31 14.31 11.75 15 11.75S16.25 12.31 16.25 13 15.69 14.25 15 14.25 13.75 13.69 13.75 13M22 12V22H2V12C2 6.5 6.5 2 12 2S22 6.5 22 12M4 12C4 16.41 7.59 20 12 20S20 16.41 20 12C20 11.21 19.88 10.45 19.67 9.74C18.95 9.91 18.2 10 17.42 10C14.05 10 11.07 8.33 9.26 5.77C8.28 8.16 6.41 10.09 4.05 11.14C4 11.42 4 11.71 4 12M9 14.25C9.69 14.25 10.25 13.69 10.25 13S9.69 11.75 9 11.75 7.75 12.31 7.75 13 8.31 14.25 9 14.25Z" /></svg></div>
                 <div>
-                    <div>Hi there,</div>
-                    <div>Morgan Oakley (@morgan)</div>
+                    <div class="title">Hi there,</div>
+                    <div class="name">Morgan Oakley (@morgan)</div>
                 </div>
             </div>
             <ul>
@@ -108,30 +123,30 @@
             <div>Trending</div>
             <div class="trend-container">
                 <div class="trend">
-                    <div>Logo</div>
+                    <div class='svg'><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>face-woman</title><path d="M13.75 13C13.75 12.31 14.31 11.75 15 11.75S16.25 12.31 16.25 13 15.69 14.25 15 14.25 13.75 13.69 13.75 13M22 12V22H2V12C2 6.5 6.5 2 12 2S22 6.5 22 12M4 12C4 16.41 7.59 20 12 20S20 16.41 20 12C20 11.21 19.88 10.45 19.67 9.74C18.95 9.91 18.2 10 17.42 10C14.05 10 11.07 8.33 9.26 5.77C8.28 8.16 6.41 10.09 4.05 11.14C4 11.42 4 11.71 4 12M9 14.25C9.69 14.25 10.25 13.69 10.25 13S9.69 11.75 9 11.75 7.75 12.31 7.75 13 8.31 14.25 9 14.25Z" /></svg></div>
                     <div>
-                        <div>@tegan</div>
+                        <div class="title">@tegan</div>
                         <div>World Peace Builder</div>
                     </div>
                 </div>
                 <div class="trend">
-                    <div>Logo</div>
+                    <div class='svg'><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>face-woman</title><path d="M13.75 13C13.75 12.31 14.31 11.75 15 11.75S16.25 12.31 16.25 13 15.69 14.25 15 14.25 13.75 13.69 13.75 13M22 12V22H2V12C2 6.5 6.5 2 12 2S22 6.5 22 12M4 12C4 16.41 7.59 20 12 20S20 16.41 20 12C20 11.21 19.88 10.45 19.67 9.74C18.95 9.91 18.2 10 17.42 10C14.05 10 11.07 8.33 9.26 5.77C8.28 8.16 6.41 10.09 4.05 11.14C4 11.42 4 11.71 4 12M9 14.25C9.69 14.25 10.25 13.69 10.25 13S9.69 11.75 9 11.75 7.75 12.31 7.75 13 8.31 14.25 9 14.25Z" /></svg></div>
                     <div>
-                        <div>@morgan</div>
+                        <div class="title">@morgan</div>
                         <div>Super Cool Project</div>
                     </div>
                 </div>
                 <div class="trend">
-                    <div>Logo</div>
+                    <div class='svg'><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>face-woman</title><path d="M13.75 13C13.75 12.31 14.31 11.75 15 11.75S16.25 12.31 16.25 13 15.69 14.25 15 14.25 13.75 13.69 13.75 13M22 12V22H2V12C2 6.5 6.5 2 12 2S22 6.5 22 12M4 12C4 16.41 7.59 20 12 20S20 16.41 20 12C20 11.21 19.88 10.45 19.67 9.74C18.95 9.91 18.2 10 17.42 10C14.05 10 11.07 8.33 9.26 5.77C8.28 8.16 6.41 10.09 4.05 11.14C4 11.42 4 11.71 4 12M9 14.25C9.69 14.25 10.25 13.69 10.25 13S9.69 11.75 9 11.75 7.75 12.31 7.75 13 8.31 14.25 9 14.25Z" /></svg></div>
                     <div>
-                        <div>@kendall</div>
+                        <div class="title">@kendall</div>
                         <div>Life Changing App</div>
                     </div>
                 </div>
                 <div class="trend">
-                    <div>Logo</div>
+                    <div class='svg'><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>face-man-outline</title><path d="M10.25,13A1.25,1.25 0 0,1 9,14.25A1.25,1.25 0 0,1 7.75,13A1.25,1.25 0 0,1 9,11.75A1.25,1.25 0 0,1 10.25,13M15,11.75A1.25,1.25 0 0,0 13.75,13A1.25,1.25 0 0,0 15,14.25A1.25,1.25 0 0,0 16.25,13A1.25,1.25 0 0,0 15,11.75M22,12A10,10 0 0,1 12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2A10,10 0 0,1 22,12M10.66,4.12C12.06,6.44 14.6,8 17.5,8C17.96,8 18.41,7.95 18.84,7.88C17.44,5.56 14.9,4 12,4C11.54,4 11.09,4.05 10.66,4.12M4.42,9.47C6.13,8.5 7.45,6.92 8.08,5.03C6.37,6 5.05,7.58 4.42,9.47M20,12C20,11.22 19.88,10.47 19.67,9.76C18.97,9.91 18.25,10 17.5,10C14.37,10 11.58,8.56 9.74,6.31C8.69,8.87 6.6,10.88 4,11.86C4,11.9 4,11.95 4,12C4,16.41 7.59,20 12,20C16.41,20 20,16.41 20,12Z" /></svg></div>
                     <div>
-                        <div>@alex</div>
+                        <div class="title">@alex</div>
                         <div>No Traffic Maker</div>
                     </div>
                 </div>
